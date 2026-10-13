@@ -55,6 +55,7 @@ We communicate directly with the team. Warnings come first, and the professor is
 ## Signatures of team agreeing
 
 Logan Whitty
+![Nathan Azevedo Signature](https://drive.google.com/uc?export=view&id=1LtKlr4VHU5l0-Vo9fv6YvNAaxlUVqbgu)
 
 ---
 *Adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.*
