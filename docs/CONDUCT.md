@@ -54,10 +54,14 @@ We communicate directly with the team. Warnings come first, and the professor is
 
 ## Signatures of team agreeing
 
-Logan Whitty !(https://drive.google.com/file/d/1G3YxL2-QcYcMoH242z5rllLzZCE-5Xwg/view)
-Valentino Campanaro !(https://drive.google.com/file/d/1UgPJfJLESJ2Dj9PqxSCLcz0bHFwb3urm/view?usp=drive_link) 
-Diego Ferreira !(https://drive.google.com/file/d/1OMa8w6dqGvDGR0Vz_4tqXkQKRbOaPGmc/view?usp=sharing)
-![Nathan Azevedo Signature](https://drive.google.com/uc?export=view&id=1LtKlr4VHU5l0-Vo9fv6YvNAaxlUVqbgu)
+Logan Whitty ![Logan Whitty](https://drive.google.com/file/d/1G3YxL2-QcYcMoH242z5rllLzZCE-5Xwg/view)
+
+
+Valentino Campanaro ![Valentino Campanaro](https://drive.google.com/file/d/1UgPJfJLESJ2Dj9PqxSCLcz0bHFwb3urm/view?usp=drive_link) 
+
+Diego Ferreira ![Diego Ferreira](https://drive.google.com/file/d/1OMa8w6dqGvDGR0Vz_4tqXkQKRbOaPGmc/view?usp=sharing)
+
+Nathan Azevedo ![Nathan Azevedo Signature](https://drive.google.com/uc?export=view&id=1LtKlr4VHU5l0-Vo9fv6YvNAaxlUVqbgu)
 
 ---
 *Adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.*
