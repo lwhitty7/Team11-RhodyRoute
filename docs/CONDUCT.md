@@ -55,6 +55,7 @@ We communicate directly with the team. Warnings come first, and the professor is
 ## Signatures of team agreeing
 
 Logan Whitty !(https://drive.google.com/file/d/1G3YxL2-QcYcMoH242z5rllLzZCE-5Xwg/view)
+Valentino Campanaro !(https://drive.google.com/file/d/1UgPJfJLESJ2Dj9PqxSCLcz0bHFwb3urm/view?usp=drive_link) 
 
 ---
 *Adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.*
