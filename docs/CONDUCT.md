@@ -53,4 +53,9 @@ We communicate directly with the team. Warnings come first, and the professor is
 
 ---
 
+## Signatures of team agreeing
+
+Logan Whitty
+
+---
 *Adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.*
