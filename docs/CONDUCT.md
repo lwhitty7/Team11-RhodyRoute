@@ -51,7 +51,6 @@ Communicate early and have a good reason. We adjust the schedule when needed.
 
 We communicate directly with the team. Warnings come first, and the professor is brought in only if the problem continues.
 
----
 
 ## Signatures of team agreeing
 
