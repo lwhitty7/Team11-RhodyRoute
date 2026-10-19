@@ -58,7 +58,7 @@ Logan Whitty ![Logan Whitty](https://drive.google.com/uc?export=view&id=1bm5aiDv
 
 Valentino Campanaro ![Valentino Campanaro](https://drive.google.com/file/d/1UgPJfJLESJ2Dj9PqxSCLcz0bHFwb3urm/view?usp=drive_link) 
 
-Diego Ferreira ![Diego Ferreira](https://drive.google.com/file/d/1OMa8w6dqGvDGR0Vz_4tqXkQKRbOaPGmc/view?usp=sharing)
+Diego Ferreira ![Diego Ferreira](https://drive.google.com/uc?export=view&id=1OMa8w6dqGvDGR0Vz_4tqXkQKRbOaPGmc)
 
 Nathan Azevedo ![Nathan Azevedo Signature](https://drive.google.com/uc?export=view&id=1LtKlr4VHU5l0-Vo9fv6YvNAaxlUVqbgu)
 
