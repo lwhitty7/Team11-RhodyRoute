@@ -56,7 +56,9 @@ We communicate directly with the team. Warnings come first, and the professor is
 
 Logan Whitty ![Logan Whitty](https://drive.google.com/uc?export=view&id=1bm5aiDvusS5iJ1XiKxFBkmKIH-M2MPeb)
 
-Valentino Campanaro ![Valentino Campanaro](https://drive.google.com/file/d/1UgPJfJLESJ2Dj9PqxSCLcz0bHFwb3urm/view?usp=drive_link) 
+Valentino Campanaro <img width="820" height="200" alt="signature (1)" src="https://github.com/user-attachments/assets/1c868c1d-7bd5-4af0-8253-f60619d64b68" />
+
+
 
 Diego Ferreira ![Diego Ferreira](https://drive.google.com/file/d/1OMa8w6dqGvDGR0Vz_4tqXkQKRbOaPGmc/view?usp=sharing)
 
