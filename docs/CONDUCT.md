@@ -60,7 +60,7 @@ Valentino Campanaro <img width="820" height="200" alt="signature (1)" src="https
 
 
 
-Diego Ferreira ![Diego Ferreira](https://drive.google.com/file/d/1OMa8w6dqGvDGR0Vz_4tqXkQKRbOaPGmc/view?usp=sharing)
+Diego Ferreira ![Diego Ferreira](https://drive.google.com/uc?export=view&id=1HXUEgVsaV6L_1Qktq4onxmCYNZDWT_NP)
 
 Nathan Azevedo ![Nathan Azevedo Signature](https://drive.google.com/uc?export=view&id=1LtKlr4VHU5l0-Vo9fv6YvNAaxlUVqbgu)
 
