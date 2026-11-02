@@ -59,66 +59,81 @@ Users have the same traditional login options, with an additional "Continue with
 We expect the SSO button to increase authentication completion rates and reduce login friction. If Group B performs significantly better, the team will consider keeping SSO as a permanent feature. If there is little or no improvement, the team may decide that traditional authentication is sufficient.
 
 
+
 A/B TEST 2
 
 A/B Test Name: Start Navigation Button With vs. Without Arrow Icon
 
-User Story Number:US4 – Golden Path
+User Story Number: US4 – Golden Path
 
 Metrics (HEART Framework)
 
-- Task Success: Navigation start rate.
-- Task Success: Golden Path click-through rate (CTR).
-- Task Success: Route selection rate.
+Task Success: Navigation start rate.
+
+Task Success: Golden Path click-through rate (CTR).
+
+Task Success: Route selection rate.
 
 Hypothesis
 
-Some users might find a route but not immediately know how to start navigating. The Start Navigation button might be easier to notice if it has an arrow icon next to the text.
+Some students might select a route but not press the Start Navigation button. This could prevent them from getting directions to their destination.
 
-Hypothesis: Adding an arrow icon to the Start Navigation button will increase the number of users who start navigation after selecting a route.
+We want to test if adding an arrow icon to the button makes it easier for students to notice and use.
 
-The goal is to see if adding an icon makes the button easier to recognize and helps more students successfully start navigating around campus.
+Our hypothesis is that adding an arrow icon to the Start Navigation button will increase the number of students who start navigation after selecting a route.
+
+We will only change the arrow icon so we can see if that one change makes a difference.
 
 Experiment
 
-We will use Firebase Remote Config and Firebase A/B Testing to randomly divide users into two groups.
+We will use Firebase Remote Config and Firebase A/B Testing to randomly divide eligible users into two groups.
 
-- Group A (Control): Start Navigation button with text only.
-- Group B (Variant): Start Navigation button with text and an arrow icon.
+Group A (Control): Start Navigation button with text only.
 
-We will include 50% of eligible users in the experiment, split equally between both groups. This allows us to compare both versions while keeping the experiment simple.
+Group B (Variant): Start Navigation button with text and an arrow icon.
 
-Firebase Analytics Tracking:
+We will include 50% of eligible users in the experiment. Half of those users will see Group A and the other half will see Group B. The remaining users will continue seeing the original button. This allows us to test the change without affecting everyone.
 
-- route_searched – Tracks when users search for a destination.
-- route_selected – Tracks when users select a route.
-- navigation_started – Tracks when users press Start Navigation.
+Firebase Remote Config will determine which button version users see.
 
-Each event will include a button_variant parameter identifying Group A or Group B.
+Firebase Analytics Tracking
 
-We will use these events to calculate the navigation start rate and Golden Path CTR. We will compare the results to see which button design leads to more users starting navigation.
+route_searched – Tracks when users search for a destination.
 
-Primary Success Metric: Navigation start rate, calculated as the percentage of route selections that lead to navigation starting.
+route_selected – Tracks when users select a route.
+
+navigation_started – Tracks when users press the Start Navigation button.
+
+These custom events will be added in FlutterFlow and recorded in Firebase Analytics. We will compare the events between both groups to see which version works better.
+
+Primary Success Metric
+
+Navigation start rate will measure the percentage of users who select a route and successfully start navigation.
+
+Golden Path CTR will measure the percentage of users who select a route and click the Start Navigation button.
+
+We will compare these metrics between both groups to see which button performs better.
 
 Variations
 
 Variation A – Text Only (Control)
 
-The Start Navigation button only displays the words "Start Navigation".
+The Start Navigation button will only display the words Start Navigation.
 
 Variation B – Text With Arrow Icon (Variant)
 
-The Start Navigation button displays the words "Start Navigation" with an arrow icon next to them.
+The Start Navigation button will display Start Navigation with an arrow icon next to the text.
 
 Both versions will use the same button size, color, location, and text. The only difference will be the arrow icon.
 
-Design Work:
+Design Work
 
-Create two mockups of the navigation screen showing the different button designs.
+We will use the same navigation screen for both versions. The screen will show the selected destination, route information, and the Start Navigation button.
 
-- Variation A:  Start Navigation 
-- Variation B:  Start Navigation → 
+In Variation A, the button will only have text. In Variation B, the button will have the same text with an arrow icon next to it.
+
+We will compare both designs to see if the arrow icon helps students recognize the button and start navigation more easily.
 
 Expected Outcome
 
-We expect the button with the arrow icon to get more clicks and lead to more users starting navigation. If Group B performs better, we may keep the arrow icon in the final app. If there is little difference, we may keep the original text-only button.
+We expect the button with the arrow icon to get more clicks and lead to more students starting navigation. If Group B performs better, we may keep the arrow icon in the final app. If there is little difference, we may keep the original button.
