@@ -139,3 +139,62 @@ We will compare both designs to see if the arrow icon helps students recognize t
 Expected Outcome
 
 We expect the button with the arrow icon to get more clicks and lead to more students starting navigation. If Group B performs better, we may keep the arrow icon in the final app. If there is little difference, we may keep the original button.
+
+### A/B TEST 4
+
+**A/B Test Name:** Enter as Guest Text Link vs. Outlined Button
+
+**User Story Number:** US3 – Guest Access / US1 – Account Creation
+
+**Metrics** (HEART Framework)
+
+- **Adoption:** Total new users entering the app via account sign-up or guest mode.
+- **Engagement:** Daily Active Users (DAU) and Weekly Active Users (WAU) opening the URI map.
+- **Retention:** Percentage of users who return to the app after their first 7 days.
+- **Task Success:** Percentage of first-time users who reach the URI map screen and start navigation.
+
+**Hypothesis**
+
+First-time users who open the app right before class may not want to spend time creating an account before seeing the URI campus map. However, if the "Enter as Guest" option is styled as a small, hard-to-notice text link at the bottom of the screen, users who do not want to sign up may close the app entirely instead of entering as a guest.
+
+**Hypothesis:** Changing the "Enter as Guest" option from a plain text link to a clearly visible outlined button will reduce first-screen drop-off and increase the total number of users who reach the URI map and complete the Golden Path.
+
+We will only change the styling of the "Enter as Guest" button so we know that single variable caused any change in conversion.
+
+**Experiment**
+
+We will use **Firebase Remote Config and Firebase A/B Testing** to randomly divide new, unauthenticated users into two groups.
+
+- **Group A (Control):** Authentication screen where "Enter as Guest" is displayed as plain text at the bottom.
+- **Group B (Variant):** Authentication screen where "Enter as Guest" is displayed as a full-width outlined secondary button.
+
+We will include 30% of eligible new users in the experiment, split equally between Groups A and B (15% each). This allows us to monitor how guest button visibility affects both immediate map adoption and 7-day retention without impacting most new sign-ups.
+
+**Firebase Analytics Tracking:**
+
+- `auth_screen_viewed` – Tracks when users land on the initial login/sign-up screen (`screen_view`).
+- `guest_login_clicked` – Tracks when users tap the "Enter as Guest" option (Anonymous Auth).
+- `sign_up_completed` – Tracks when users create a registered account.
+- `start_building_navigation` – Tracks when users reach the map and start navigating to a building.
+
+Each event will include a `button_variant` parameter identifying Group A or Group B.
+
+**Primary Success Metric:** Onboarding-to-Map completion rate, measuring the percentage of new users who view the authentication screen and successfully enter the URI map (either as a registered student or as a guest).
+
+We will compare onboarding completion rates and 7-day retention between both groups to see if the outlined button improves overall adoption.
+
+**Variations**
+
+**Variation A – Guest Text Link (Control)**
+
+The authentication screen includes email and password fields, a primary Login/Sign-Up button, and a small plain text "Enter as Guest" link at the bottom.
+
+**Variation B – Guest Outlined Button (Variant)**
+
+The authentication screen has the same fields and primary Login/Sign-Up button, but "Enter as Guest" is styled as a full-width outlined button directly below the primary button.
+
+**Design Work:** Create two versions of the authentication screen in Figma and FlutterFlow. Both versions will use identical colors, text, and input fields. The only difference will be the border and button styling applied to the "Enter as Guest" option in Variation B.
+
+**Expected Outcome**
+
+We expect the outlined "Enter as Guest" button in Group B to reduce drop-off on the initial screen and increase the number of students who reach the URI map and use the Golden Path. If Group B increases adoption without hurting account sign-ups or retention, we will keep the outlined button design.
