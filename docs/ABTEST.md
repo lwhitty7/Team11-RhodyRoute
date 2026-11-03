@@ -62,7 +62,7 @@ We expect the SSO button to increase authentication completion rates and reduce 
 
 
 
-###A/B TEST 2
+### A/B TEST 2
 
 A/B Test Name: Start Navigation Button With vs. Without Arrow Icon
 
