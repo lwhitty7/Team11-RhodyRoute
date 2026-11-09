@@ -140,6 +140,73 @@ Expected Outcome
 
 We expect the button with the arrow icon to get more clicks and lead to more students starting navigation. If Group B performs better, we may keep the arrow icon in the final app. If there is little difference, we may keep the original button.
 
+
+A/B TEST 3
+
+A/B Test Name: Search Bar at Bottom vs. Top of Map Screen
+
+User Story Number: US4 – Golden Path
+
+Metrics (HEART Framework)
+
+Adoption: Percentage of users who perform at least one search after opening the map screen.
+Engagement: Average number of searches per user session.
+Task Success: Search-to-selection rate, measuring the percentage of searches that lead to a selected route.
+Task Success: Navigation start rate after a search.
+
+Hypothesis
+
+The search bar currently sits at the bottom of the map screen, where it may be overlooked or partly blocked by route information and the phone’s system navigation. Most map and navigation apps place search at the top, so students may expect to find it there.
+
+Hypothesis: Moving the search bar from the bottom of the screen to the top will increase the number of students who search for a destination and lead to more completed searches.
+
+Because the bottom is also easier to reach with a thumb, the top position could instead lower search usage. The test will show which placement works better.
+
+We will only change the position of the search bar so we know that single change caused any difference in search activity.
+
+Experiment
+
+We will use Firebase Remote Config and Firebase A/B Testing to randomly divide eligible users into two groups.
+
+Group A (Control): Search bar docked at the bottom of the map screen.
+Group B (Variant): Search bar placed at the top of the map screen.
+
+We will include 40% of eligible users in the experiment, split equally between Groups A and B (20% each). The remaining users will continue seeing the original layout. This allows us to test the change without affecting most users.
+
+Firebase Remote Config will control the search bar position.
+
+Firebase Analytics Tracking:
+
+map_screen_viewed – Tracks when users land on the map screen.
+search_bar_tapped – Tracks when users tap into the search bar.
+route_searched – Tracks when users submit a search for a destination.
+route_selected – Tracks when users select a result.
+navigation_started – Tracks when users press the Start Navigation button.
+
+These custom events will be added in FlutterFlow and recorded in Firebase Analytics. Each event will include a search_position parameter identifying Group A or Group B.
+
+Primary Success Metric: Search rate, measuring the percentage of users who view the map screen and perform at least one search.
+
+We will also compare the search-to-selection rate and navigation start rate. This will show whether more searches lead to useful results or just more taps. We will compare these metrics between both groups to determine which placement works better.
+
+Variations
+
+Variation A – Search Bar at Bottom (Control)
+
+The search bar is docked at the bottom of the map screen, below the map and above the system navigation area.
+
+Variation B – Search Bar at Top (Variant)
+
+The search bar is placed at the top of the map screen, below the status bar and over the map.
+
+Design Work: Both versions will use the same search bar size, color, placeholder text, and search icon, and all other map elements will stay in the same place. The only difference will be whether the search bar appears at the bottom or the top of the screen.
+
+Expected Outcome
+
+We expect the top search bar to be easier to notice and to increase search usage. If Group B has a higher search rate without lowering the search-to-selection or navigation start rates, we will keep the search bar at the top. If Group A performs better, we will keep the bottom placement because it is easier to reach with a thumb. If there is little difference, we will keep the original layout.
+
+
+
 ### A/B TEST 4
 
 **A/B Test Name:** Enter as Guest Text Link vs. Outlined Button
