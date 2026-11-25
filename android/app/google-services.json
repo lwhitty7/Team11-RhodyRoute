@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "692599465029",
+    "project_id": "rhody-route",
+    "storage_bucket": "rhody-route.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692599465029:android:0ff70fc92e274794032f2c",
+        "android_client_info": {
+          "package_name": "com.mycompany.rhodyroute"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASCebouBxHu9Yvg2d7xMGkHEo_C3zxxBs"
+        },
+        {
+          "current_key": "AIzaSyCZcWKGW-CTaYw4LWT5JKI4y7UeJ6y0Rb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692599465029:android:7656092f0debaa13032f2c",
+        "android_client_info": {
+          "package_name": "edu.uri.csc305.F26T11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASCebouBxHu9Yvg2d7xMGkHEo_C3zxxBs"
+        },
+        {
+          "current_key": "AIzaSyCZcWKGW-CTaYw4LWT5JKI4y7UeJ6y0Rb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692599465029:android:2365a1cf1191f495032f2c",
+        "android_client_info": {
+          "package_name": "edu.uri.csc305.f26t11"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASCebouBxHu9Yvg2d7xMGkHEo_C3zxxBs"
+        },
+        {
+          "current_key": "AIzaSyCZcWKGW-CTaYw4LWT5JKI4y7UeJ6y0Rb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
