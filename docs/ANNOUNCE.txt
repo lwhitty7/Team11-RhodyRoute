@@ -1,0 +1,1 @@
+﻿Rhody Route helps URI students navigate campus by combining closure and construction reports to find the fastest route to class.
